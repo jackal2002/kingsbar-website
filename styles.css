@@ -3,4 +3,7 @@ body {
     min-height: 100vh;
     background-color: #FDC907;
     color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
