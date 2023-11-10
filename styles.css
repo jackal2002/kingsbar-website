@@ -1,7 +1,7 @@
 body {
     min-width: 100%;
     min-height: 100vh;
-/*     background-color: #FDC907; */
+    /* background-color: #FDC907; */
     background-color: blue;
     color: #000;
     display: flex;
@@ -12,10 +12,11 @@ body {
 
 img {
     width: 400px;
+    display: block;
 }
 
 h1 {
-    font-size: 50px;
+    font-size: 50px
 }
 
 h2 {
