@@ -28,5 +28,10 @@ html {
     background: url('images/b95a3a8056f83a1fef3e8270f1332d68.jpg') no-repeat center center;
     background-size: cover;
     filter: brightness(60%);
+    display: flex;
+    justify-content: center;
 }
 
+.lrb-icon {
+    width: 100px;
+}
