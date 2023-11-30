@@ -25,13 +25,32 @@ html {
 .hero-section {
     width: 100%;
     height: 90vh;
-    background: url('images/b95a3a8056f83a1fef3e8270f1332d68.jpg') no-repeat center center;
+    background: url('images/b95a3a8056f83a1fef3e8270f1332d68\ \(1\).jpg') no-repeat center center;
     background-size: cover;
-    filter: brightness(60%);
     display: flex;
     justify-content: center;
+    box-shadow: inset 0 0 0 1000px rgba(0,0,0,.4);
+}
+
+.social-media-icons {
+    display: flex;
+    align-items: center;
+}
+
+.icon {
+    color: white;
+    font-size: 30px
 }
 
 .lrb-icon {
-    width: 100px;
+    width: 130px;
 }
+
+.lrb-icon img {
+    width: 100%;
+}
+
+.hero-heading {
+    color: white;
+}
+
